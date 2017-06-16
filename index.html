@@ -4,19 +4,29 @@
 		<title>Developer Brent Milan</title>
 		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Raleway" rel="stylesheet">
 	<style>
+body {
+	background-image: url("profile-pictures/background-full.jpg");
+}
+
 #profile {
 	width: 30%;
 	height: 30%;
 }
 
-.banner {
+.aboutMe {
 	
 	border: 10px solid grey;
-	padding: 10px;
-	margin-left: 200px;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
-.banner h1 {
+.aboutMe h1 {
 	font-style: Montserrat;
 	font-size: 30px;
 }
@@ -25,25 +35,66 @@
 	font-size-adjust: 120%;
 }
 
+.networking {
+	border: 10px solid grey;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.networking a:link, a:visited {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.networking a:hover, a:active {
+    background-color: purple;
+}
+
 
 	</style>
 </head>
 <header>
-	<img id="profile" src="https://github.com/Brent-Milan/Brent-Milan.github.io/blob/master/profile-pictures/milan_profile.jpg?raw=true">
-	
+	<section class= "top">
+		<img id="profile" src="https://github.com/Brent-Milan/Brent-Milan.github.io/blob/master/profile-pictures/milan_profile.jpg?raw=true">
+	</section>
 </header>
 <body>
-	<section class="banner">
+	
+	<section class="aboutMe">
 
 		<h1>About Me</h1>
-			<p>Brent Milan is a Capital University graduate currently attending a full-stack development boot camp. He spent the last five years running a  successful business start-up that he founded and is now moving on to a new chapter as a passionate junior software developer in the Columbus tech industry.</p>
+			<p>Brent Milan is a Capital University graduate currently attending a full-stack development boot camp. He spent the last five years running a successful business start-up that he founded and is now moving on to a new chapter as a passionate junior software developer in the Columbus tech industry.</p>
 			<p></p>
-		<div id="eatSleep">
-			<p>Eat. Sleep. Run. Code</p>
-		</div>
+				<div id="eatSleep">
+					<p>Eat. Sleep. Run. Code</p>
+				</div>
+	</section>
+	<section class="networking">
+		<h1>Networking and Repositories</h1>
+		<p>You can network with me here:</p>
+		<a href="https://www.linkedin.com/in/brent-milan-100987141/">LinkedIn</a>
 	</section>
 	
 
 
 </body>
+<footer>
+	<section class="contact">
+		<h1>Contact Me<h1>
+			<p>Email: Bmilan24@gmail.com</p>
+			<p>Phone: (614) 615.5587<p>
+	</section>
+	
+</footer>
 </html>
