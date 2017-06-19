@@ -3,9 +3,24 @@
 	<head>
 		<title>Developer Brent Milan</title>
 		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
 	<style>
+.headerContainer {
+	font-family: 'Spectral', serif;
+	margin-left: 50px;	
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 body {
-	background-image: url("profile-pictures/background-full.jpg");
+	background-image: url("profile-pictures/Hexagon-1.jpg");
 }
 
 body p  {
@@ -22,8 +37,8 @@ body ul {
 #profile {
 	margin-top: 14px;
 	margin-left: 52px;
-	width: 240px;
-	height: 250px;
+	width: 245px;
+	height: 260px;
 }
 
 .aboutMe {
@@ -74,9 +89,10 @@ body ul {
     background-color: purple;
 }
 
-.headingContainer {
+.AboutMeContainer {
 	display: flex;
 }
+
 
 .skills {
 	border: 10px solid grey;
@@ -114,27 +130,31 @@ body ul {
 	</style>
 </head>
 <header>
-	
-	
+	<div class="headerContainer">
+		
+		<h1>Developer Profile : Brent D. Milan</h1>
+		<hr/>
+	</div>	
 </header>
 <body>
-	<div class="headingContainer">
-		<div style="text-align: left"><img id="profile" src="https://github.com/Brent-Milan/Brent-Milan.github.io/blob/master/profile-pictures/milan_profile.jpg?raw=true"></div>
-		<section class="aboutMe">
-
-			<h1>About Me</h1>
-				<p>Brent Milan is a Capital University graduate currently attending a full-stack development boot camp. He spent the last five years running a successful business start-up that he founded and is now moving on to a new chapter as a passionate junior software developer in the Columbus tech industry.</p>
-				
-		</section>
-	</div>
+		<div class="AboutMeContainer">
+			<div style="text-align: left"><img id="profile" src="https://github.com/Brent-Milan/Brent-Milan.github.io/blob/master/profile-pictures/milan_profile.jpg?raw=true">
+			</div>
+			<section class="aboutMe">
+				<h1>About Me</h1>
+					<p>Brent Milan is a Capital University graduate currently attending a full-stack development boot camp. He spent the last five years running a successful business start-up that he founded and is now moving on to a new chapter as a passionate junior software developer in the Columbus tech industry.</p>					
+			</section>
+		</div>
+		<hr/>
 	<section class="networking">
 		<h1>Networking and Repositories</h1>
-		<p>You can network with me here:</p>
-		<a href="https://www.linkedin.com/in/brent-milan-100987141/">LinkedIn</a>
-		<p>You can check out my class repositories here:</p>
-		<a href="https://github.com/Brent-Milan">Github</a>
+			<p>You can network with me here:</p>
+			<a href="https://www.linkedin.com/in/brent-milan-100987141/">LinkedIn</a>
+			<p>You can check out my class repositories here:</p>
+			<a href="https://github.com/Brent-Milan">Github</a>
 	</section>
-		<div class="kungFu">
+	<hr/>
+	<div class="kungFu">
 	<section class ="skills">
 		<h1>Technical Skills</h1>
 		<ul>
@@ -145,11 +165,11 @@ body ul {
 			<li>Source Control / Git</li>
 			<li>Spring</li>
 			<li>Bootstrap</li>
-			<<img src=profile-pictures/kung-fu.jpg>
+			<img src=profile-pictures/kung-fu.jpg>
 		</ul>
-		</div>
-
+	</div>
 	</section>
+	<hr/>
 	<section class="education">
 		<h1>Education</h1>
 		<img src="profile-pictures/WCCIT-logo-notag.png">

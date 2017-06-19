@@ -1,0 +1,109 @@
+<style>
+body {
+	background-image: url("profile-pictures/background-full.jpg");
+}
+
+body p  {
+	font-size: 20px;
+	font-family: "Bree Serif";
+}
+
+body ul {
+	font-size: 20px;
+	font-family: "Bree Serif";
+}
+
+
+#profile {
+	margin-top: 14px;
+	margin-left: 52px;
+	width: 240px;
+	height: 250px;
+}
+
+.aboutMe {
+	
+	border: 10px solid grey;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+.aboutMe h1 {
+	font-style: Montserrat;
+	font-size: 30px;
+}
+
+#eatSleep {
+	font-size-adjust: 120%;
+}
+
+.networking {
+	border: 10px solid grey;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.networking a:link, a:visited {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.networking a:hover, a:active {
+    background-color: purple;
+}
+
+.headingContainer {
+	display: flex;
+}
+
+.skills {
+	border: 10px solid grey;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+.kungFu img {
+	display: flex;
+	height: 200px;
+	width: 300px;
+	margin-top: 30px;
+	margin-left: -20px;
+}
+
+.education {
+	
+	border: 10px solid grey;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+	</style>
