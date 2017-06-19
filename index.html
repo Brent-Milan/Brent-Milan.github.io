@@ -125,6 +125,19 @@ body ul {
 	margin-top: 10px;
 	margin-left: 50px;
 	margin-right: 50px;
+	
+}
+
+.logoContainer {
+	display: flex;
+	padding: 5px;
+	margin-left: 50px;
+}
+
+
+#capLogo {
+	height: 200px;
+	width: 200;
 }
 
 #wcciLogo {
@@ -179,8 +192,14 @@ body ul {
 
 	<section class="education">
 		<h1>Education</h1>
-		<img id="wcciLogo" src="profile-pictures/WCCIT-logo-notag.png">
-		<img id="capLogo" src="profile-pictures/capital-university.png">
+			<div class="logoContainer">
+				<div class="capContainer">
+					<img id="capLogo" src="profile-pictures/capital-university.png">
+				</div>
+				<div class="wcciContainer">
+					<img id="wcciLogo" src="profile-pictures/WCCIT-logo-notag.png">
+				</div>
+			</div>
 	</section>
 
 </body>
