@@ -1,6 +1,19 @@
-<style>
+.headerContainer {
+	font-family: 'Spectral', serif;
+	margin-left: 50px;	
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 body {
-	background-image: url("profile-pictures/background-full.jpg");
+	background-image: url("profile-pictures/Hexagon-1.jpg");
 }
 
 body p  {
@@ -17,8 +30,8 @@ body ul {
 #profile {
 	margin-top: 14px;
 	margin-left: 52px;
-	width: 240px;
-	height: 250px;
+	width: 245px;
+	height: 260px;
 }
 
 .aboutMe {
@@ -69,9 +82,10 @@ body ul {
     background-color: purple;
 }
 
-.headingContainer {
+.AboutMeContainer {
 	display: flex;
 }
+
 
 .skills {
 	border: 10px solid grey;
@@ -85,17 +99,42 @@ body ul {
 	margin-right: 50px;
 
 }
-.kungFu img {
-	display: flex;
-	height: 200px;
-	width: 300px;
-	margin-top: 30px;
-	margin-left: -20px;
-}
 
 .education {
 	
 	border: 10px solid grey;
+	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	margin: 40px;
+	
+}
+
+.logoContainer {
+	display: flex;
+	padding: 5px;
+	width: 300px;
+	margin: 0 5px;
+	margin-left: 50px;
+}
+
+
+#capLogo {
+	height: 200px;
+	width: 200;
+	margin: 0 75px;
+}
+
+#wcciLogo {
+	height: 75px;
+	width: 325px;
+	margin: 0 75px;
+}
+
+.currentProjects {
+	order: 10px solid grey;
 	border-radius: 15px;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -106,4 +145,22 @@ body ul {
 	margin-right: 50px;
 }
 
-	</style>
+.projectsContainer img {
+	display: column;
+
+}
+
+#projSpring {
+	margin-top: 17px;
+}
+
+.contacts {
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.disclaimers p {
+	margin-left: 50px;
+	font-size: 12px;
+	font-style: italic;
+}
