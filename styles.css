@@ -1,4 +1,27 @@
-.headerContainer {
+
+.navi {
+	display: flex;
+	justify-content: : right;
+	flex: 1 0 25px;
+}
+
+.navi li:nth-child(1){
+
+}
+
+.navi li:nth-child(2){
+
+} 
+
+.navi li:nth-child(3){
+
+}
+
+.navi li:nth-child(4){
+
+}
+
+#header {
 	font-family: 'Spectral', serif;
 	margin-left: 50px;	
 }
