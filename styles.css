@@ -10,30 +10,32 @@ nav ul {
 	justify-content: space-around;
 }
 
-.navi li:nth-child(1){
-	
-	flex: 1 0 50%;
+.navi li:nth-child(1) {
+	margin-left: 200px;
+	flex: 3 0 55%;
 }
 
-.navi li:nth-child(2){
-	
-	flex: 1 0 30%;
+.navi li:nth-child(2) {
+	/*margin-left: 300px;*/
+	flex: 1 0 20%;
 } 
 
-.navi li:nth-child(3){
-	
-	flex: 1 0 40%;
+.navi li:nth-child(3) {
+	flex: 1 0 10%;
 }
 
-.navi li:nth-child(4){
-	
-	flex: 1 0 100%;
+.navi li:nth-child(4) {
+	flex: 1 0 15%;
+}
+
+.navi li:nth-child(5) {
+	flex: 1 0 5%;
 }
 
 #header {
 	font-family: 'Spectral', serif;
-	margin-left: 50px;
-	flex: 1 0 50px;	
+	/*margin-left: 50px;*/
+	/*flex: 3 0 10;	*/
 }
 
 hr {
