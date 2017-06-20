@@ -1,29 +1,39 @@
 
-.navi {
+nav {
 	display: flex;
-	justify-content: : right;
-	flex: 1 0 25px;
+	flex-wrap: wrap;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
 }
 
 .navi li:nth-child(1){
-
+	
+	flex: 1 0 50%;
 }
 
 .navi li:nth-child(2){
-
+	
+	flex: 1 0 30%;
 } 
 
 .navi li:nth-child(3){
-
+	
+	flex: 1 0 40%;
 }
 
 .navi li:nth-child(4){
-
+	
+	flex: 1 0 100%;
 }
 
 #header {
 	font-family: 'Spectral', serif;
-	margin-left: 50px;	
+	margin-left: 50px;
+	flex: 1 0 50px;	
 }
 
 hr {
