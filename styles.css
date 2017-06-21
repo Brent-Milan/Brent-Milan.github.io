@@ -10,32 +10,41 @@ nav ul {
 	justify-content: space-around;
 }
 
-.navi li:nth-child(1) {
+
+.navi ul li:nth-child(1) {
 	margin-left: 200px;
 	flex: 3 0 55%;
 }
 
-.navi li:nth-child(2) {
+.navi ul li:nth-child(2) {
 	/*margin-left: 300px;*/
 	flex: 1 0 20%;
 } 
 
-.navi li:nth-child(3) {
+.navi ul li:nth-child(3) {
 	flex: 1 0 10%;
 }
 
-.navi li:nth-child(4) {
+.navi ul li:nth-child(4) {
 	flex: 1 0 15%;
 }
 
-.navi li:nth-child(5) {
+.navi ul li:nth-child(5) {
 	flex: 1 0 5%;
 }
 
-#header {
+.navi a {
+	color: navy;
+}
+
+.navi a:hover {
+	background-color: slategrey;
+}
+
+/*#header {
 	font-family: 'Spectral', serif;
 	/*margin-left: 50px;*/
-	/*flex: 3 0 10;	*/
+	/*flex: 3 0 10;	*/*/
 }
 
 hr {
@@ -87,9 +96,7 @@ body ul {
 	font-size: 30px;
 }
 
-#eatSleep {
-	font-size-adjust: 120%;
-}
+
 
 .networking {
 	border: 10px solid grey;
@@ -134,6 +141,43 @@ body ul {
 	margin-right: 50px;
 
 }
+
+.skills ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 25px;
+}
+
+.skills ul li:nth-child(1) {
+	flex: 1 0 2%;
+}
+
+.skills ul li:nth-child(2) {
+	flex: 1 0 7%;
+}
+
+.skills ul li:nth-child(3) {
+	flex: 1 0 5%;
+}
+
+.skills ul li:nth-child(4) {
+	flex: 1 0 5%;
+}
+
+.skills ul li:nth-child(5) {
+	flex: 1 0 16%;
+}
+
+.skills ul li:nth-child(6) {
+	flex: 1 0 5%;
+}
+
+.skills ul li:nth-child(7) {
+	flex: 1 0 5%;
+}
+
+
 
 .education {
 	
