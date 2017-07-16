@@ -1,110 +1,72 @@
-	<!DOCTYPE HTML>
-	<html>
-		<head>
-				<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Raleway" rel="stylesheet">
-				<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
-				<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-			<div class="top">
-				<title>Developer Brent Milan</title>
-			</div>
-	</head>
-	<header>
-				<nav class="navi">
-				<ul>
-					<li id="header">Developer Profile : Brent D. Milan</li>
-					<li><a href="#navToNetworking">Networking</a></li>
-					<li><a href="#navToSkills">Skills</a></li>
-					<li><a href="#navToProjects">Projects</a></li>
-					<li><a href="#navToContact">Contact</a></li>
-				</ul>
-				</nav>
-			<hr/>	
-	</header>
-	<body>
-			<div class="AboutMeContainer">
-				<div style="text-align: left"><img id="profile" src="https://github.com/Brent-Milan/Brent-Milan.github.io/blob/master/profile-pictures/milan_profile.jpg?raw=true">
-				</div>
-				<section class="aboutMe">
-					<h1>About Me</h1>
-						<p>Brent Milan is a Capital University graduate currently attending a full-stack development boot camp. He spent the last five years running a successful business start-up that he founded and is now moving on to a new chapter as a passionate junior software developer in the Columbus tech industry.</p>					
-				</section>
-			</div>
-			<hr/>
-		<section class="networking">
-			<h1 id="navToNetworking">Networking and Repositories</h1>
-				<p>You can network with me here:</p>
-				<a href="https://www.linkedin.com/in/brent-milan-100987141/">LinkedIn</a>
-				<p>You can check out my class repositories here:</p>
-				<a href="https://github.com/Brent-Milan">Github</a>
-		</section>
-		<hr/>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brent-Milan.github.io</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+       Developer Profile: Brent Milan
+      </a>
+    </div>
+     <ul class="nav navbar-nav">
+        <li class="inactive"><a href="#nav-to-projects">Projects<span class="sr-only">(current)</span></a></li>
+        <li class="inactive"><a href="#nav-to-network">Contact Brent</a></li>
+   	</ul>
+  </div>
+</nav>
 
-		<div class="kungFu">
-		<section class ="skills">
-			<h1 id="navToSkills">Technical Skills</h1>
-			<ul>
-				<li>Java</li>
-				<li>JavaScript</li>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>Source Control / Git</li>
-				<li>Spring</li>
-				<li>Bootstrap</li>
-			</ul>
-		</div>
-		</section>
-		<hr/>
+<div class="jumbotron" id="jumbo-about">
+	<h1>About Me</h1>
+	  <p>public class BrentMilan {</p>
+	 
+	  <p>private JavaProgrammer java;</p>
+	  <p>private Runner runner;</p>
+	  <p>private Father father;</p>
+	  <p>private boolean isHuman;</p>
+	  
+	  <p>}</p>
+	  
+	  <p>A Capital University graduate from Columbus, Ohio.</p> 
+	  <p>Currently furthering my education at We Can Code IT, a full-stack programming boot camp. </p>
+	  
+	  <p><a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/brent-milan-100987141" role="button">Learn More on LinkedIn</a></p>
+</div>
 
-		<section class="education">
-			<h1>Education</h1>
-				<div class="logoContainer">
-					<div class="capContainer">
-						<img id="capLogo" src="profile-pictures/capital-university.png">
-					</div>
-					<div class="wcciContainer">
-						<img id="wcciLogo" src="profile-pictures/WCCIT-logo-notag.png">
-					</div>
-				</div>
-		</section>
-		<hr/>
+<div class="jumbotron" id="nav-to-projects">
+	<div class="split">
+  		<h1>Current Projects</h1>
+ 		 <p><a class="btn btn-primary btn-lg" href="https://github.com/Brent-Milan" role="button">Jump to My Github</a></p>
+  	</div>
+  
+  <div class="project-buttons">
+  <p><a class="btn btn-primary btn-lg" href="https://github.com/Brent-Milan/reviews-site-2.0" role="button">Review Site 2.0</a></p>
+  <!-- <a href="https://github.com/Brent-Milan/reviews-site-2.0">
+  	<img id="reviewProj" alt="reviews-site-2.0" src="images/reviews.png" /></a> -->
+  	
+  <p id="second-btn"><a class="btn btn-primary btn-lg" href="https://github.com/Brent-Milan/game-reviews-2.0" role="button">Gaming Reviews 2.0</a></p>
+  <!-- <a href="https://github.com/Brent-Milan/game-reviews-2.0">
+  	<img id="gameProj" alt="game-reviews-2.0" src="images/game.png" /></a> -->
+  	
+  <p><a class="btn btn-primary btn-lg" href="https://github.com/Brent-Milan/Brent-Milan.github.io" role="button">Brent-Milan.github.io</a></p>
+	<p id="capstone"><a class="btn btn-primary btn-lg" href="#" role="button">[Coming Soon] Capstone Project</a></p>
+	</div>
+</div>
 
-		<section class="currentProjects">
-				<h1 id="navToProjects">Current Projects</h1>
-				<div class="projectsContainer">
-					<div class="project1">
-						<p>Virtual Pets Amok (Java - Interfaces, Object-Oriented Programming, Class Inheritance, Encapsulation)</p>
-						<a href="https://github.com/Brent-Milan/virtual-pets-amok">
-							<img id="projAmok" src="screenshots/virtual-pets-amok.PNG">
-						</a> 
-					</div>
-					<div class="project2"> 
-						<p>Virtual Pet Shelter (Java - Class, Inheritance, Separating Logic)<p>
-						<a href="https://github.com/Brent-Milan/virtual-pet-shelter">		
-							<img id="projShelter" src="screenshots/virtual-pet-shelter.PNG">
-						</a> 
-					</div>
-					<div class="project3"> 
-						<p>Hello Spring (Spring + Java - Bridging Front and Back-End Development)
-						<a href="https://github.com/Brent-Milan/hello-spring">
-							<img id="projSpring" src="screenshots/hello-spring.png"> 
-						</a>
-					</div>
-				</div>
-		</section>
-		<hr/>
-		<section class="contactContainer">
-			<div class="contacts">
-			<h1 id="navToContact">Contact Me</h1>
-				<p>Email: Bmilan24@gmail.com</p>
-				<p>Phone: (614) 615.5587</p>
-			</div>
-		</section>
-		<hr/>
-	</body>
-	<footer>
-		<section class="disclaimers">
-			<p>The 'Capital University logo' is the trademark of <a href="https//www.capital.edu">Capital University</a>, Bexley, Ohio.</p>
-			<p>The 'We Can Code IT logo' is the trademark of <a href="https://www.wecancodeit.org">We Can Code IT</a>. ©2013 - 2017, We Can Code IT.   All rights reserved.
-		</section>
-	</footer>
-	</html>
+<div class="jumbotron" id="nav-to-network">
+  <h1>Networking<span class = "linked-btn"><a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/brent-milan-100987141/" role="button">Reach Me on LinkedIn</a>
+  </span></h1>
+  <p>e: Bmilan24@gmail.com</p>
+  <p>c: 614.615.5587</p>
+  
+</div>
+
+
+
+
+</body>
+</html>
